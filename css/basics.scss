@@ -1,0 +1,91 @@
+
+/*#  Herencia para titulos*/
+%hs {
+    font-family: Arial, Helvetica, sans-serif;
+    color:red
+}
+
+h2{
+    @extend %hs;
+    color:aqua;
+    margin:auto;
+    width: 90%;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+      
+  }
+  
+  button{
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      padding: 10%;
+      position: inherit;
+  
+  }
+  
+  #solito{
+      text-align: center;
+      text-decoration: aqua;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      
+  
+  }
+ 
+  
+  .form-group{
+      padding: auto;
+      text-align: left;
+  
+  }
+  
+  
+  .form-control{
+      padding: auto;
+      text-align: end;
+  }
+  
+  
+  .list-unstyled{
+      padding-bottom: 20px;
+      padding-top: 20px;
+  }
+
+  #col-sm{
+     text-align: center;
+
+  }
+
+  .tarjetitas {
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .start{
+      text-align: center;
+      
+  }
+/*#  Investigar para mejorar este formulario con css*/
+   #formulario{
+    text-align: center;
+}
+    
+ 
+  #mensaje_contact{
+      text-align: left;
+      color:black
+
+  }
+/*#  Anidamiento para tablas*/
+  .first_column{
+      background-color: blue;
+      table{
+          background-color: brown;
+            card{
+                background-color:yellowgreen;
+            }
+      }
+  }
